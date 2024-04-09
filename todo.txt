@@ -1,0 +1,6 @@
+SaveLoadAction 中的 virtual assets 和 event instances 尚不清楚是否要单独处理
+是否有多线程的问题
+由于现在可能需要多次初始化 SaveLoadAction.All, 因此我们不再使用 SafeAdd 进行 ModInterop, 而是要再包装一层
+提供快照 (存档的截图) 功能, 以方便切换存档
+提供跨 Level 的存档?
+将 Hotkey / Hotkey Watcher 单独抽离出来, 解开对 CelesteTAS 的依赖

@@ -1,0 +1,3 @@
+﻿# ============================================= MoreSaveSlots =====================================================
+SRT_MSS_MODNAME=					SRT Plugin - MoreSaveSlots
+SRT_MSS_MODTITLE=					SpeedrunTool Plugin - MoreSaveSlots
