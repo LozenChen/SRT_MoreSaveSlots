@@ -1,6 +1,5 @@
 global using Celeste.Mod.SRT_MoreSaveSlots.Utils.Attributes;
 global using static Celeste.Mod.SRT_MoreSaveSlots.GlobalVariables;
-global using static Celeste.Mod.SRT_MoreSaveSlots.GlobalMethod;
 using Celeste.Mod.SRT_MoreSaveSlots.Module;
 using Monocle;
 

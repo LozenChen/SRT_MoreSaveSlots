@@ -31,7 +31,7 @@ public sealed class TH_SaveLoadAction {
     public delegate void SlAction(Dictionary<Type, Dictionary<string, object>> savedValues, Level level);
 
     // 第一次 SL 时才初始化，避免通过安装依赖功能解除禁用的 Mod 被忽略
-    private static bool initialized { 
+    private static bool initialized {
         get => SaveSlotsManager.Slot.SaveLoadActionInitialized;
         set {
             SaveSlotsManager.Slot.SaveLoadActionInitialized = value;

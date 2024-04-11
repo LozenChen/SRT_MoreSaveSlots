@@ -1,6 +1,6 @@
 ﻿
-using Celeste.Mod.SpeedrunTool.Message;
 using Celeste.Mod.SpeedrunTool;
+using Celeste.Mod.SpeedrunTool.Message;
 using Celeste.Mod.SRT_MoreSaveSlots.Utils;
 using Force.DeepCloner;
 using Force.DeepCloner.Helpers;

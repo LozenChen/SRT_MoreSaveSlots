@@ -1,9 +1,4 @@
 ﻿using Celeste.Mod.SpeedrunTool.SaveLoad;
-using Celeste.Mod.SRT_MoreSaveSlots.Utils;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Input;
-using Monocle;
-using System.Reflection;
 using SRT = Celeste.Mod.SpeedrunTool.SaveLoad.SaveLoadAction;
 using TH = Celeste.Mod.SRT_MoreSaveSlots.TinySRT.TH_SaveLoadAction;
 

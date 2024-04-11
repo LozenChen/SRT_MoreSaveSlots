@@ -1,19 +1,17 @@
 
+using Celeste.Mod.SpeedrunTool;
+using Celeste.Mod.SpeedrunTool.Message;
+using Celeste.Mod.SpeedrunTool.Other;
+using Celeste.Mod.SRT_MoreSaveSlots.TinySRT;
+using Celeste.Mod.SRT_MoreSaveSlots.Utils;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using Mono.Cecil.Cil;
 using Monocle;
 using MonoMod.Cil;
 using System.Reflection;
-using Celeste.Mod.SRT_MoreSaveSlots.Utils;
-using System.Reflection;
 using TAS.EverestInterop;
-using CMCore = Celeste.Mod.Core;
 using TAS_Hotkey = TAS.EverestInterop.Hotkeys.Hotkey; // use this just coz i'm lazy
-using Celeste.Mod.SpeedrunTool.Other;
-using Celeste.Mod.SRT_MoreSaveSlots.TinySRT;
-using Celeste.Mod.SpeedrunTool.Message;
-using Celeste.Mod.SpeedrunTool;
 
 namespace Celeste.Mod.SRT_MoreSaveSlots.Module;
 
@@ -37,7 +35,7 @@ public static class TH_Hotkeys {
 
     public static TAS_Hotkey Slot9;
 
-    public static List<TAS_Hotkey> Hotkeys = new ();
+    public static List<TAS_Hotkey> Hotkeys = new();
 
     [Load]
     public static void Load() {
@@ -241,7 +239,8 @@ public class HotkeyWatcher : Message {
     private void RestoreAlpha(bool sameText) {
         if (sameText) {
             FallAndRise = true;
-        } else {
+        }
+        else {
             alpha = 1f;
         }
     }
@@ -254,7 +253,8 @@ public class HotkeyWatcher : Message {
                 alpha = 1f;
                 FallAndRise = false;
             }
-        } else {
+        }
+        else {
             if (lifetimer / lifetime < 0.1f) {
                 alpha = 10 * lifetimer / lifetime;
             }

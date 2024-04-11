@@ -1,9 +1,5 @@
-using System.Reflection;
-using Celeste.Mod.SRT_MoreSaveSlots.Utils;
 using Microsoft.Xna.Framework.Input;
 using TAS.EverestInterop;
-using Monocle;
-using Celeste.Mod.SRT_MoreSaveSlots.TinySRT;
 
 namespace Celeste.Mod.SRT_MoreSaveSlots.Module;
 

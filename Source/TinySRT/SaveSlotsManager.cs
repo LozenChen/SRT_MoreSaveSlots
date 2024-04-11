@@ -29,7 +29,7 @@ public static class SaveSlotsManager {
         }
     }
     public static string GetSlotName(int index) {
-        return index ==1 ? "Default Slot" : $"SaveSlot@{index}";
+        return index == 1 ? "Default Slot" : $"SaveSlot@{index}";
     }
     public static bool SaveState() {
         if (Engine.Scene is not Level) {
@@ -94,6 +94,6 @@ public class SaveSlot {
         Name = name;
         SaveLoadActionInitialized = false;
         All = new();
-        StateManager = new(); 
+        StateManager = new();
     }
 }

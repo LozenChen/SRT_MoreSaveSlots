@@ -1,5 +1,0 @@
-﻿# https://github.com/EverestAPI/Resources/wiki/Adding-Custom-Dialogue
-# https://maddie480.ovh/celeste/font-generator
-# ============================================= MoreSaveSlots =====================================================
-SRT_MSS_MODNAME=					SRT Plugin - MoreSaveSlots
-SRT_MSS_MODTITLE=					SpeedrunTool Plugin - MoreSaveSlots

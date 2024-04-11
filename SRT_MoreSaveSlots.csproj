@@ -65,7 +65,6 @@
 		<Publicize Include="Celeste" />
 		<Publicize Include="MonoMod.Utils" />
 		<Publicize Include="SpeedrunTool" />
-		<Publicize Include="MonoMod.Utils" />
 		<Publicize Include="MonoMod.Utils:MonoMod.Utils.DynamicData._DataMap" />
 		<Publicize Include="MonoMod.Utils:MonoMod.Utils.DynamicData._Data_" />
 	</ItemGroup>
